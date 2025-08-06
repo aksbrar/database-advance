@@ -1,5 +1,24 @@
 {
+  "name": "database-advance",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/aksbrar/database-advance#readme",
+  "bugs": {
+    "url": "https://github.com/aksbrar/database-advance/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aksbrar/database-advance.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@electric-sql/pglite": "^0.3.7"
-  }
+  },
+  "devDependencies": {}
 }

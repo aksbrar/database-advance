@@ -44,3 +44,11 @@ INSERT INTO cars
     ('Porsche', '356B', 1960, 265000, 'silver', 4, false),
     ('Mercedes-Benz', '300SLR', 1955, 142000000, 'silver', 5, false),
     ('Bentley', 'T2', 1978, 52000, 'silver', 4, false);
+
+
+    INSERT INTO dealerships (
+      city, state, established
+    ) 
+    VALUES (
+      'Brampton', 'ON', 12-10-2025
+    )
