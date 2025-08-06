@@ -1,1 +1,1 @@
-SELECT * FROM staff ORDER BY id;
+SELECT * FROM cars ORDER BY id;

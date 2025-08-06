@@ -17,7 +17,11 @@ import fs from 'fs';
   // Populate our new tables
   const populateTables = fs.readFileSync('populate-tables.sql', 'utf8');
   await db.exec(populateTables);
-  
+
+  // Alter the existing cars table
+  const alterTable = fs.readFileSync('alter.sql', 'utf-8');
+  await db.exec(alterTable)
+
   // Load the SQL query file
   const query = fs.readFileSync('query.sql', 'utf8');
 
