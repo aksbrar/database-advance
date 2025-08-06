@@ -1,1 +1,1 @@
-SELECT * FROM dealerships ORDER BY id;
+SELECT * FROM staff ORDER BY id;
