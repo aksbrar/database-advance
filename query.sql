@@ -1,1 +1,1 @@
-SELECT * FROM cars ORDER BY id;
+SELECT id, dealership_id, brand, model FROM cars;
