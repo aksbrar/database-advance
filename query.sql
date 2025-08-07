@@ -1,1 +1,1 @@
-SELECT id, dealership_id, brand, model FROM cars;
+SELECT * FROM sold_cars;
